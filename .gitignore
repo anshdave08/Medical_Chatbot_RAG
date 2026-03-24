@@ -1,0 +1,41 @@
+# Environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Data files
+*.pdf
+*.json
+data/
+datasets/
+
+# Vector DB / embeddings
+*.faiss
+*.pkl
+*.index
+chroma/
+db/
+vectorstore/
+
+# Logs
+*.log
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
