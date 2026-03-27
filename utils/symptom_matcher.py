@@ -1,4 +1,5 @@
 import json
+import os
 
 SYMPTOM_MAP = {
     "fever": ["fever", "high temperature", "body heat"],
@@ -15,7 +16,10 @@ def get_disease_info(name):
     return None
 
 def load_diseases():
-    with open("Dataset/Dataset.json", "r") as f:
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    file_path = os.path.join(base_dir, "Dataset", "Dataset.json")
+
+    with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 def match_disease(user_input):
