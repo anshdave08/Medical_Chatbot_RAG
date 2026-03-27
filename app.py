@@ -5,7 +5,8 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-from langchain_groq import ChatGroq
+from langchain_openai import ChatOpenAI
+import os
 
 from utils.symptom_matcher import match_disease, get_disease_info
 from utils.query_rewrite import rewrite_query
@@ -51,9 +52,11 @@ retriever = vectorstore.as_retriever(
     search_kwargs={"k": 5, "fetch_k": 10}
 )
 # ---------------- Groq LLM ----------------
-llm = ChatGroq(
+llm = ChatOpenAI(
     model="llama-3.1-8b-instant",
-    temperature=0
+    temperature=0,
+    api_key=os.getenv("GROQ_API_KEY"),
+    base_url="https://api.groq.com/openai/v1"
 )
 
 # ---------------- RAG Chain ----------------

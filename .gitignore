@@ -19,14 +19,6 @@ env/
 data/
 datasets/
 
-# Vector DB / embeddings
-*.faiss
-*.pkl
-*.index
-chroma/
-db/
-vectorstore/
-
 # Logs
 *.log
 tmp/
