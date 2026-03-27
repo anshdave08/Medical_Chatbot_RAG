@@ -13,12 +13,6 @@ venv/
 env/
 .venv/
 
-# Data files
-*.pdf
-*.json
-data/
-datasets/
-
 # Logs
 *.log
 tmp/

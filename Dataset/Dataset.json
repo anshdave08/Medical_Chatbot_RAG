@@ -1,0 +1,3000 @@
+[
+  {
+    "disease": "COVID-19",
+    "symptoms": [
+      "fever and chills",
+      "dry cough",
+      "shortness of breath",
+      "loss of taste or smell",
+      "fatigue and body aches",
+      "sore throat and headache"
+    ],
+    "treatment": "Supportive care including rest, hydration, and oxygen therapy in severe cases.",
+    "medicines": ["Paracetamol", "Remdesivir", "Dexamethasone"],
+    "precautions": [
+      "wear masks",
+      "maintain social distancing",
+      "frequent hand washing",
+      "vaccination",
+      "avoid crowded places"
+    ]
+  },
+  {
+    "disease": "Influenza (Flu)",
+    "symptoms": [
+      "sudden high fever",
+      "muscle aches and chills",
+      "dry cough",
+      "runny or blocked nose",
+      "fatigue and weakness",
+      "headache"
+    ],
+    "treatment": "Rest, hydration, and antiviral medications in early stages.",
+    "medicines": ["Oseltamivir", "Zanamivir", "Paracetamol"],
+    "precautions": [
+      "annual flu vaccination",
+      "avoid close contact with infected people",
+      "cover mouth while coughing",
+      "wash hands regularly"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptoms": [
+      "persistent cough lasting more than 3 weeks",
+      "blood in sputum",
+      "chest pain",
+      "night sweats",
+      "weight loss",
+      "fatigue and fever"
+    ],
+    "treatment": "Long-term antibiotic therapy (6–9 months).",
+    "medicines": ["Isoniazid", "Rifampicin", "Ethambutol", "Pyrazinamide"],
+    "precautions": [
+      "cover mouth when coughing",
+      "ensure proper ventilation",
+      "complete full treatment course",
+      "avoid close contact with infected individuals"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptoms": [
+      "cyclic fever with chills and sweating",
+      "headache",
+      "muscle pain",
+      "nausea and vomiting",
+      "fatigue",
+      "anemia in severe cases"
+    ],
+    "treatment": "Antimalarial therapy based on parasite type.",
+    "medicines": ["Chloroquine", "Artemisinin combination therapy", "Quinine"],
+    "precautions": [
+      "use mosquito nets",
+      "avoid stagnant water",
+      "use insect repellents",
+      "wear full protective clothing"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptoms": [
+      "high fever",
+      "severe headache",
+      "pain behind the eyes",
+      "joint and muscle pain",
+      "skin rash",
+      "nausea and vomiting"
+    ],
+    "treatment": "Supportive care with fluids and pain management.",
+    "medicines": ["Paracetamol", "IV fluids"],
+    "precautions": [
+      "prevent mosquito breeding",
+      "use mosquito repellents",
+      "wear protective clothing",
+      "keep surroundings clean"
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptoms": [
+      "prolonged high fever",
+      "abdominal pain",
+      "weakness",
+      "constipation or diarrhea",
+      "loss of appetite",
+      "headache"
+    ],
+    "treatment": "Antibiotic therapy and hydration.",
+    "medicines": ["Ciprofloxacin", "Azithromycin", "Ceftriaxone"],
+    "precautions": [
+      "drink clean water",
+      "maintain hygiene",
+      "wash hands before eating",
+      "avoid contaminated food"
+    ]
+  },
+  {
+    "disease": "Cholera",
+    "symptoms": [
+      "severe watery diarrhea",
+      "dehydration",
+      "vomiting",
+      "muscle cramps",
+      "rapid heart rate"
+    ],
+    "treatment": "Oral or intravenous rehydration therapy.",
+    "medicines": ["Oral rehydration salts", "Doxycycline", "Azithromycin"],
+    "precautions": [
+      "drink safe water",
+      "proper sanitation",
+      "wash hands regularly",
+      "eat properly cooked food"
+    ]
+  },
+  {
+    "disease": "Hepatitis A",
+    "symptoms": [
+      "fatigue",
+      "nausea and vomiting",
+      "abdominal pain",
+      "loss of appetite",
+      "dark urine",
+      "jaundice"
+    ],
+    "treatment": "Supportive care and rest.",
+    "medicines": ["Paracetamol (with caution)", "IV fluids"],
+    "precautions": [
+      "vaccination",
+      "drink clean water",
+      "maintain hygiene",
+      "avoid contaminated food"
+    ]
+  },
+  {
+    "disease": "Hepatitis B",
+    "symptoms": [
+      "fatigue",
+      "joint pain",
+      "abdominal discomfort",
+      "dark urine",
+      "jaundice",
+      "loss of appetite"
+    ],
+    "treatment": "Antiviral therapy in chronic cases.",
+    "medicines": ["Tenofovir", "Entecavir"],
+    "precautions": [
+      "vaccination",
+      "avoid sharing needles",
+      "safe sex practices",
+      "screen blood before transfusion"
+    ]
+  },
+  {
+    "disease": "Hepatitis C",
+    "symptoms": [
+      "fatigue",
+      "jaundice",
+      "abdominal pain",
+      "dark urine",
+      "loss of appetite"
+    ],
+    "treatment": "Direct-acting antiviral therapy.",
+    "medicines": ["Sofosbuvir", "Ledipasvir"],
+    "precautions": [
+      "avoid sharing needles",
+      "screen blood products",
+      "maintain hygiene",
+      "safe medical practices"
+    ]
+  },
+  {
+    "disease": "HIV/AIDS",
+    "symptoms": [
+      "fever",
+      "weight loss",
+      "night sweats",
+      "chronic infections",
+      "fatigue",
+      "swollen lymph nodes"
+    ],
+    "treatment": "Antiretroviral therapy (ART).",
+    "medicines": ["Tenofovir", "Lamivudine", "Efavirenz"],
+    "precautions": [
+      "safe sex practices",
+      "avoid needle sharing",
+      "regular testing",
+      "use sterile medical equipment"
+    ]
+  },
+  {
+    "disease": "Rabies",
+    "symptoms": [
+      "fever and headache",
+      "anxiety and confusion",
+      "difficulty swallowing",
+      "excess salivation",
+      "fear of water",
+      "paralysis in later stages"
+    ],
+    "treatment": "Immediate post-exposure prophylaxis with vaccine and immunoglobulin.",
+    "medicines": ["Rabies vaccine", "Rabies immunoglobulin"],
+    "precautions": [
+      "vaccinate pets",
+      "avoid contact with stray animals",
+      "wash wounds immediately",
+      "seek immediate medical care after bites"
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "symptoms": [
+      "itchy red rash with blisters",
+      "fever",
+      "fatigue",
+      "loss of appetite",
+      "headache"
+    ],
+    "treatment": "Symptomatic treatment and antiviral drugs in severe cases.",
+    "medicines": ["Acyclovir", "Paracetamol", "Antihistamines"],
+    "precautions": [
+      "vaccination",
+      "avoid contact with infected individuals",
+      "maintain hygiene",
+      "isolate infected person"
+    ]
+  },
+  {
+    "disease": "Measles",
+    "symptoms": [
+      "high fever",
+      "runny nose",
+      "red eyes",
+      "cough",
+      "rash spreading from face to body"
+    ],
+    "treatment": "Supportive care and vitamin A supplementation.",
+    "medicines": ["Vitamin A", "Paracetamol"],
+    "precautions": [
+      "vaccination (MMR)",
+      "isolate infected individuals",
+      "maintain hygiene",
+      "avoid crowded places"
+    ]
+  },
+  {
+    "disease": "Mumps",
+    "symptoms": [
+      "swelling of salivary glands",
+      "fever",
+      "headache",
+      "muscle aches",
+      "difficulty chewing or swallowing"
+    ],
+    "treatment": "Supportive care with rest and fluids.",
+    "medicines": ["Paracetamol", "Ibuprofen"],
+    "precautions": [
+      "vaccination (MMR)",
+      "avoid close contact",
+      "maintain hygiene",
+      "isolate infected person"
+    ]
+  },
+  {
+    "disease": "Polio",
+    "symptoms": [
+      "fever",
+      "fatigue",
+      "headache",
+      "stiff neck",
+      "muscle weakness",
+      "paralysis in severe cases"
+    ],
+    "treatment": "Supportive care including physical therapy and pain management.",
+    "medicines": ["Pain relievers", "Muscle relaxants"],
+    "precautions": [
+      "polio vaccination",
+      "maintain hygiene",
+      "safe drinking water",
+      "proper sanitation"
+    ]
+  },
+  {
+    "disease": "Whooping Cough",
+    "symptoms": [
+      "severe coughing fits",
+      "whooping sound during inhalation",
+      "vomiting after coughing",
+      "fatigue",
+      "runny nose in early stage"
+    ],
+    "treatment": "Antibiotics and supportive care.",
+    "medicines": ["Azithromycin", "Erythromycin"],
+    "precautions": [
+      "DTaP vaccination",
+      "avoid close contact with infected individuals",
+      "cover mouth while coughing",
+      "maintain hygiene"
+    ]
+  },
+  {
+    "disease": "Tetanus",
+    "symptoms": [
+      "muscle stiffness (lockjaw)",
+      "difficulty swallowing",
+      "muscle spasms",
+      "fever",
+      "sweating"
+    ],
+    "treatment": "Administration of antitoxin and wound care.",
+    "medicines": ["Tetanus immunoglobulin", "Metronidazole"],
+    "precautions": [
+      "tetanus vaccination",
+      "proper wound cleaning",
+      "avoid contaminated injuries",
+      "maintain hygiene"
+    ]
+  },
+  {
+    "disease": "Leprosy",
+    "symptoms": [
+      "skin lesions",
+      "numbness in affected areas",
+      "muscle weakness",
+      "nerve damage",
+      "loss of sensation"
+    ],
+    "treatment": "Multi-drug therapy over several months.",
+    "medicines": ["Dapsone", "Rifampicin", "Clofazimine"],
+    "precautions": [
+      "early diagnosis and treatment",
+      "avoid close contact with untreated patients",
+      "maintain hygiene",
+      "regular medical checkups"
+    ]
+  },
+  {
+    "disease": "Zika Virus",
+    "symptoms": [
+      "mild fever",
+      "rash",
+      "joint pain",
+      "red eyes",
+      "headache"
+    ],
+    "treatment": "Supportive care with rest and fluids.",
+    "medicines": ["Paracetamol"],
+    "precautions": [
+      "avoid mosquito bites",
+      "use repellents",
+      "wear protective clothing",
+      "avoid travel to affected areas"
+    ]
+  },
+  {
+    "disease": "Ebola",
+    "symptoms": [
+      "high fever",
+      "severe weakness",
+      "muscle pain",
+      "vomiting and diarrhea",
+      "internal and external bleeding"
+    ],
+    "treatment": "Supportive care with fluids and oxygen therapy.",
+    "medicines": ["IV fluids", "Monoclonal antibodies"],
+    "precautions": [
+      "avoid contact with infected individuals",
+      "use protective equipment",
+      "proper sanitation",
+      "safe burial practices"
+    ]
+  },
+  {
+    "disease": "SARS",
+    "symptoms": [
+      "high fever",
+      "dry cough",
+      "shortness of breath",
+      "headache",
+      "muscle pain"
+    ],
+    "treatment": "Supportive care and respiratory support.",
+    "medicines": ["Antivirals", "Corticosteroids"],
+    "precautions": [
+      "wear masks",
+      "avoid crowded places",
+      "hand hygiene",
+      "isolation of infected individuals"
+    ]
+  },
+  {
+    "disease": "MERS",
+    "symptoms": [
+      "fever",
+      "cough",
+      "shortness of breath",
+      "diarrhea",
+      "pneumonia"
+    ],
+    "treatment": "Supportive care including oxygen therapy.",
+    "medicines": ["Antivirals", "Supportive medications"],
+    "precautions": [
+      "avoid contact with infected individuals",
+      "maintain hygiene",
+      "wear masks",
+      "avoid contact with camels in affected regions"
+    ]
+  },
+  {
+    "disease": "Rotavirus Infection",
+    "symptoms": [
+      "severe diarrhea",
+      "vomiting",
+      "fever",
+      "abdominal pain",
+      "dehydration"
+    ],
+    "treatment": "Oral rehydration and supportive care.",
+    "medicines": ["Oral rehydration salts", "Zinc supplements"],
+    "precautions": [
+      "rotavirus vaccination",
+      "hand washing",
+      "clean drinking water",
+      "proper sanitation"
+    ]
+  },
+  {
+    "disease": "Norovirus Infection",
+    "symptoms": [
+      "sudden vomiting",
+      "watery diarrhea",
+      "stomach cramps",
+      "nausea",
+      "mild fever"
+    ],
+    "treatment": "Hydration and rest.",
+    "medicines": ["Oral rehydration salts"],
+    "precautions": [
+      "wash hands frequently",
+      "avoid contaminated food",
+      "sanitize surfaces",
+      "isolate infected individuals"
+    ]
+  },
+  {
+    "disease": "Salmonella Infection",
+    "symptoms": [
+      "diarrhea",
+      "fever",
+      "abdominal cramps",
+      "nausea",
+      "vomiting"
+    ],
+    "treatment": "Hydration and antibiotics in severe cases.",
+    "medicines": ["Ciprofloxacin", "Azithromycin", "ORS"],
+    "precautions": [
+      "cook food properly",
+      "avoid raw eggs",
+      "wash hands",
+      "maintain food hygiene"
+    ]
+  },
+  {
+    "disease": "Shigellosis",
+    "symptoms": [
+      "bloody diarrhea",
+      "fever",
+      "abdominal pain",
+      "tenesmus",
+      "nausea"
+    ],
+    "treatment": "Antibiotics and hydration.",
+    "medicines": ["Azithromycin", "Ciprofloxacin", "ORS"],
+    "precautions": [
+      "wash hands regularly",
+      "drink clean water",
+      "proper sanitation",
+      "avoid contaminated food"
+    ]
+  },
+  {
+    "disease": "Lyme Disease",
+    "symptoms": [
+      "bulls-eye rash",
+      "fever",
+      "fatigue",
+      "headache",
+      "joint pain in later stages"
+    ],
+    "treatment": "Antibiotic therapy.",
+    "medicines": ["Doxycycline", "Amoxicillin"],
+    "precautions": [
+      "avoid tick-infested areas",
+      "wear protective clothing",
+      "use insect repellent",
+      "check skin after outdoor exposure"
+    ]
+  },
+  {
+    "disease": "Ringworm",
+    "symptoms": [
+      "circular red rash",
+      "itching",
+      "scaly skin",
+      "hair loss in affected area"
+    ],
+    "treatment": "Topical or oral antifungal therapy.",
+    "medicines": ["Clotrimazole", "Terbinafine"],
+    "precautions": [
+      "maintain personal hygiene",
+      "avoid sharing personal items",
+      "keep skin dry",
+      "wash clothes regularly"
+    ]
+  },
+  {
+    "disease": "Scabies",
+    "symptoms": [
+      "intense itching (especially at night)",
+      "small red bumps",
+      "burrow lines on skin",
+      "skin irritation"
+    ],
+    "treatment": "Topical scabicidal medications.",
+    "medicines": ["Permethrin cream", "Ivermectin"],
+    "precautions": [
+      "avoid close contact with infected individuals",
+      "wash clothes and bedding",
+      "maintain hygiene",
+      "treat all household members"
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "symptoms": [
+      "often no noticeable symptoms",
+      "headache",
+      "dizziness",
+      "blurred vision",
+      "nosebleeds in severe cases"
+    ],
+    "treatment": "Lifestyle changes and antihypertensive medications to control blood pressure.",
+    "medicines": ["Amlodipine", "Losartan", "Hydrochlorothiazide"],
+    "precautions": [
+      "reduce salt intake",
+      "exercise regularly",
+      "avoid smoking and alcohol",
+      "manage stress",
+      "maintain healthy weight"
+    ]
+  },
+  {
+    "disease": "Coronary Artery Disease",
+    "symptoms": [
+      "chest pain or pressure (angina)",
+      "shortness of breath",
+      "fatigue",
+      "pain in arms or shoulders",
+      "heart attack in severe cases"
+    ],
+    "treatment": "Lifestyle modification, medications, and surgical procedures if needed.",
+    "medicines": ["Aspirin", "Atorvastatin", "Nitroglycerin"],
+    "precautions": [
+      "eat a heart-healthy diet",
+      "exercise regularly",
+      "avoid smoking",
+      "control cholesterol levels",
+      "manage blood pressure"
+    ]
+  },
+  {
+    "disease": "Heart Failure",
+    "symptoms": [
+      "shortness of breath",
+      "fatigue",
+      "swelling in legs and ankles",
+      "rapid or irregular heartbeat",
+      "persistent cough"
+    ],
+    "treatment": "Medications, lifestyle changes, and device-based therapies in severe cases.",
+    "medicines": ["Furosemide", "Enalapril", "Metoprolol"],
+    "precautions": [
+      "limit salt intake",
+      "monitor fluid intake",
+      "regular exercise",
+      "avoid alcohol and smoking",
+      "regular medical checkups"
+    ]
+  },
+  {
+    "disease": "Stroke",
+    "symptoms": [
+      "sudden weakness on one side of body",
+      "difficulty speaking or understanding speech",
+      "vision problems",
+      "severe headache",
+      "loss of balance or coordination"
+    ],
+    "treatment": "Emergency medical treatment including clot-dissolving drugs or surgery.",
+    "medicines": ["Aspirin", "Alteplase", "Clopidogrel"],
+    "precautions": [
+      "control blood pressure",
+      "maintain healthy diet",
+      "exercise regularly",
+      "avoid smoking",
+      "manage diabetes"
+    ]
+  },
+  {
+    "disease": "Atherosclerosis",
+    "symptoms": [
+      "chest pain",
+      "shortness of breath",
+      "fatigue",
+      "leg pain during walking",
+      "often no early symptoms"
+    ],
+    "treatment": "Lifestyle changes and medications to reduce plaque buildup.",
+    "medicines": ["Statins", "Aspirin", "Beta blockers"],
+    "precautions": [
+      "eat low-fat diet",
+      "exercise regularly",
+      "avoid smoking",
+      "control cholesterol",
+      "manage blood pressure"
+    ]
+  },
+  {
+    "disease": "Arrhythmia",
+    "symptoms": [
+      "irregular heartbeat",
+      "palpitations",
+      "dizziness",
+      "fainting",
+      "shortness of breath"
+    ],
+    "treatment": "Medications, lifestyle changes, or procedures like pacemaker insertion.",
+    "medicines": ["Amiodarone", "Beta blockers", "Calcium channel blockers"],
+    "precautions": [
+      "avoid excessive caffeine",
+      "manage stress",
+      "regular heart checkups",
+      "maintain healthy lifestyle",
+      "avoid smoking"
+    ]
+  },
+  {
+    "disease": "Cardiomyopathy",
+    "symptoms": [
+      "fatigue",
+      "shortness of breath",
+      "swelling in legs",
+      "chest pain",
+      "irregular heartbeat"
+    ],
+    "treatment": "Medications and lifestyle changes; surgery in severe cases.",
+    "medicines": ["ACE inhibitors", "Beta blockers", "Diuretics"],
+    "precautions": [
+      "avoid alcohol",
+      "maintain healthy diet",
+      "exercise moderately",
+      "regular monitoring",
+      "manage underlying conditions"
+    ]
+  },
+  {
+    "disease": "Peripheral Artery Disease",
+    "symptoms": [
+      "leg pain while walking",
+      "numbness in legs",
+      "cold feet",
+      "slow wound healing",
+      "weak pulses in legs"
+    ],
+    "treatment": "Lifestyle changes, medications, and in some cases surgery.",
+    "medicines": ["Aspirin", "Clopidogrel", "Statins"],
+    "precautions": [
+      "stop smoking",
+      "exercise regularly",
+      "maintain healthy weight",
+      "control blood sugar",
+      "healthy diet"
+    ]
+  },
+  {
+    "disease": "Rheumatic Heart Disease",
+    "symptoms": [
+      "chest pain",
+      "fatigue",
+      "shortness of breath",
+      "swelling in legs",
+      "heart murmur"
+    ],
+    "treatment": "Antibiotics and management of heart complications.",
+    "medicines": ["Penicillin", "Aspirin", "Diuretics"],
+    "precautions": [
+      "treat throat infections early",
+      "regular medical checkups",
+      "maintain hygiene",
+      "avoid infections",
+      "follow prescribed medication"
+    ]
+  },
+  {
+    "disease": "Deep Vein Thrombosis",
+    "symptoms": [
+      "leg swelling",
+      "pain or tenderness in leg",
+      "warm skin",
+      "red or discolored skin",
+      "leg cramps"
+    ],
+    "treatment": "Blood thinners and compression therapy.",
+    "medicines": ["Heparin", "Warfarin", "Rivaroxaban"],
+    "precautions": [
+      "avoid prolonged sitting",
+      "exercise regularly",
+      "stay hydrated",
+      "wear compression stockings",
+      "maintain healthy weight"
+    ]
+  },
+  {
+    "disease": "Alzheimer’s Disease",
+    "symptoms": [
+      "progressive memory loss",
+      "confusion and disorientation",
+      "difficulty performing daily tasks",
+      "language and communication problems",
+      "personality and behavior changes"
+    ],
+    "treatment": "No cure; management focuses on slowing progression and improving quality of life.",
+    "medicines": ["Donepezil", "Rivastigmine", "Memantine"],
+    "precautions": [
+      "engage in mental activities",
+      "maintain healthy lifestyle",
+      "regular exercise",
+      "balanced diet",
+      "early diagnosis and monitoring"
+    ]
+  },
+  {
+    "disease": "Parkinson’s Disease",
+    "symptoms": [
+      "tremors in hands or limbs",
+      "slow movement (bradykinesia)",
+      "muscle stiffness",
+      "balance and coordination problems",
+      "speech and writing changes"
+    ],
+    "treatment": "Medications and therapies to manage symptoms.",
+    "medicines": ["Levodopa", "Carbidopa", "Dopamine agonists"],
+    "precautions": [
+      "regular physical therapy",
+      "balanced diet",
+      "avoid stress",
+      "regular medical follow-up",
+      "maintain active lifestyle"
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "symptoms": [
+      "recurrent seizures",
+      "temporary confusion",
+      "loss of consciousness",
+      "muscle jerking",
+      "staring spells"
+    ],
+    "treatment": "Antiepileptic medications and lifestyle management.",
+    "medicines": ["Valproate", "Carbamazepine", "Levetiracetam"],
+    "precautions": [
+      "take medications regularly",
+      "avoid triggers (stress, lack of sleep)",
+      "avoid alcohol",
+      "ensure safety during seizures",
+      "regular checkups"
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptoms": [
+      "severe throbbing headache (often one-sided)",
+      "sensitivity to light and sound",
+      "nausea and vomiting",
+      "visual disturbances (aura)",
+      "fatigue"
+    ],
+    "treatment": "Pain management and preventive medications.",
+    "medicines": ["Sumatriptan", "Ibuprofen", "Propranolol"],
+    "precautions": [
+      "avoid triggers (stress, certain foods)",
+      "maintain regular sleep schedule",
+      "stay hydrated",
+      "limit caffeine",
+      "practice relaxation techniques"
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "symptoms": [
+      "muscle weakness",
+      "numbness or tingling",
+      "vision problems",
+      "fatigue",
+      "difficulty walking"
+    ],
+    "treatment": "Disease-modifying therapies and symptom management.",
+    "medicines": ["Interferon beta", "Glatiramer acetate", "Natalizumab"],
+    "precautions": [
+      "avoid extreme heat",
+      "regular exercise",
+      "balanced diet",
+      "stress management",
+      "regular monitoring"
+    ]
+  },
+  {
+    "disease": "Stroke",
+    "symptoms": [
+      "sudden weakness on one side of the body",
+      "difficulty speaking",
+      "vision disturbances",
+      "severe headache",
+      "loss of coordination"
+    ],
+    "treatment": "Emergency treatment including clot removal or medications.",
+    "medicines": ["Aspirin", "Alteplase", "Clopidogrel"],
+    "precautions": [
+      "control blood pressure",
+      "healthy diet",
+      "regular exercise",
+      "avoid smoking",
+      "manage diabetes"
+    ]
+  },
+  {
+    "disease": "Dementia",
+    "symptoms": [
+      "memory loss",
+      "confusion",
+      "difficulty communicating",
+      "poor judgment",
+      "behavioral changes"
+    ],
+    "treatment": "Symptom management and supportive care.",
+    "medicines": ["Donepezil", "Memantine"],
+    "precautions": [
+      "mental stimulation",
+      "healthy lifestyle",
+      "regular exercise",
+      "social engagement",
+      "early diagnosis"
+    ]
+  },
+  {
+    "disease": "Huntington’s Disease",
+    "symptoms": [
+      "uncontrolled movements",
+      "cognitive decline",
+      "mood changes",
+      "difficulty speaking and swallowing",
+      "coordination problems"
+    ],
+    "treatment": "No cure; treatment focuses on symptom management.",
+    "medicines": ["Tetrabenazine", "Antipsychotics"],
+    "precautions": [
+      "genetic counseling",
+      "regular medical care",
+      "supportive therapy",
+      "balanced nutrition",
+      "mental health support"
+    ]
+  },
+  {
+    "disease": "Meningitis",
+    "symptoms": [
+      "high fever",
+      "stiff neck",
+      "severe headache",
+      "sensitivity to light",
+      "confusion"
+    ],
+    "treatment": "Antibiotics or antivirals depending on cause.",
+    "medicines": ["Ceftriaxone", "Vancomycin", "Acyclovir"],
+    "precautions": [
+      "vaccination",
+      "maintain hygiene",
+      "avoid close contact with infected individuals",
+      "early medical attention",
+      "cover mouth while coughing"
+    ]
+  },
+  {
+    "disease": "Encephalitis",
+    "symptoms": [
+      "fever",
+      "headache",
+      "confusion",
+      "seizures",
+      "loss of consciousness"
+    ],
+    "treatment": "Antiviral therapy and supportive care.",
+    "medicines": ["Acyclovir", "Anticonvulsants"],
+    "precautions": [
+      "vaccination",
+      "avoid mosquito bites",
+      "maintain hygiene",
+      "early treatment",
+      "use protective measures in endemic areas"
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "symptoms": [
+      "shortness of breath",
+      "wheezing",
+      "chest tightness",
+      "persistent cough (especially at night)",
+      "difficulty breathing during physical activity"
+    ],
+    "treatment": "Long-term control with inhalers and avoidance of triggers.",
+    "medicines": ["Salbutamol", "Budesonide", "Montelukast"],
+    "precautions": [
+      "avoid allergens (dust, pollen)",
+      "use inhaler regularly",
+      "avoid smoking",
+      "monitor air quality",
+      "regular medical checkups"
+    ]
+  },
+  {
+    "disease": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "symptoms": [
+      "chronic cough",
+      "shortness of breath",
+      "wheezing",
+      "excess mucus production",
+      "fatigue"
+    ],
+    "treatment": "Bronchodilators, steroids, and oxygen therapy in severe cases.",
+    "medicines": ["Tiotropium", "Salbutamol", "Prednisolone"],
+    "precautions": [
+      "stop smoking",
+      "avoid air pollution",
+      "regular exercise",
+      "use prescribed inhalers",
+      "vaccination (flu, pneumonia)"
+    ]
+  },
+  {
+    "disease": "Bronchitis",
+    "symptoms": [
+      "persistent cough with mucus",
+      "fatigue",
+      "shortness of breath",
+      "chest discomfort",
+      "mild fever"
+    ],
+    "treatment": "Rest, hydration, and medications for symptom relief.",
+    "medicines": ["Cough suppressants", "Bronchodilators", "Paracetamol"],
+    "precautions": [
+      "avoid smoking",
+      "stay hydrated",
+      "avoid cold air",
+      "maintain hygiene",
+      "use mask in polluted areas"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptoms": [
+      "high fever",
+      "productive cough with phlegm",
+      "chest pain while breathing",
+      "shortness of breath",
+      "fatigue"
+    ],
+    "treatment": "Antibiotics or antivirals depending on cause and supportive care.",
+    "medicines": ["Azithromycin", "Amoxicillin", "Paracetamol"],
+    "precautions": [
+      "vaccination",
+      "maintain hygiene",
+      "avoid smoking",
+      "strengthen immunity",
+      "early medical consultation"
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptoms": [
+      "persistent cough for more than 3 weeks",
+      "blood in sputum",
+      "chest pain",
+      "night sweats",
+      "weight loss and fatigue"
+    ],
+    "treatment": "Long-term antibiotic therapy (6–9 months).",
+    "medicines": ["Isoniazid", "Rifampicin", "Ethambutol", "Pyrazinamide"],
+    "precautions": [
+      "cover mouth while coughing",
+      "ensure good ventilation",
+      "complete full treatment",
+      "avoid close contact",
+      "regular screening"
+    ]
+  },
+  {
+    "disease": "Lung Cancer",
+    "symptoms": [
+      "persistent cough",
+      "coughing up blood",
+      "chest pain",
+      "shortness of breath",
+      "unexplained weight loss"
+    ],
+    "treatment": "Surgery, chemotherapy, radiation therapy, or targeted therapy.",
+    "medicines": ["Cisplatin", "Erlotinib", "Pembrolizumab"],
+    "precautions": [
+      "avoid smoking",
+      "avoid exposure to carcinogens",
+      "regular screening",
+      "healthy lifestyle",
+      "avoid air pollution"
+    ]
+  },
+  {
+    "disease": "Sleep Apnea",
+    "symptoms": [
+      "loud snoring",
+      "interrupted breathing during sleep",
+      "daytime sleepiness",
+      "morning headaches",
+      "difficulty concentrating"
+    ],
+    "treatment": "Use of CPAP machine and lifestyle changes.",
+    "medicines": ["Modafinil (for sleepiness)"],
+    "precautions": [
+      "maintain healthy weight",
+      "avoid alcohol before sleep",
+      "sleep on side",
+      "regular sleep schedule",
+      "medical evaluation"
+    ]
+  },
+  {
+    "disease": "Pulmonary Fibrosis",
+    "symptoms": [
+      "shortness of breath",
+      "dry cough",
+      "fatigue",
+      "weight loss",
+      "clubbing of fingers"
+    ],
+    "treatment": "Medications to slow progression and oxygen therapy.",
+    "medicines": ["Pirfenidone", "Nintedanib"],
+    "precautions": [
+      "avoid smoking",
+      "avoid pollutants",
+      "regular monitoring",
+      "healthy lifestyle",
+      "early diagnosis"
+    ]
+  },
+  {
+    "disease": "Pleurisy",
+    "symptoms": [
+      "sharp chest pain (worsens with breathing)",
+      "shortness of breath",
+      "dry cough",
+      "fever"
+    ],
+    "treatment": "Treat underlying cause and manage pain.",
+    "medicines": ["Ibuprofen", "Antibiotics"],
+    "precautions": [
+      "treat respiratory infections early",
+      "avoid smoking",
+      "maintain hygiene",
+      "seek medical care for chest pain"
+    ]
+  },
+  {
+    "disease": "Sinusitis",
+    "symptoms": [
+      "facial pain or pressure",
+      "nasal congestion",
+      "thick nasal discharge",
+      "headache",
+      "reduced sense of smell"
+    ],
+    "treatment": "Decongestants, antibiotics (if bacterial), and steam inhalation.",
+    "medicines": ["Amoxicillin", "Pseudoephedrine", "Paracetamol"],
+    "precautions": [
+      "avoid allergens",
+      "maintain nasal hygiene",
+      "stay hydrated",
+      "use humidifier",
+      "avoid pollution"
+    ]
+  },
+  {
+    "disease": "Gastritis",
+    "symptoms": [
+      "burning stomach pain",
+      "nausea and vomiting",
+      "bloating",
+      "loss of appetite",
+      "indigestion"
+    ],
+    "treatment": "Medications to reduce stomach acid and protect the stomach lining.",
+    "medicines": ["Omeprazole", "Antacids", "Ranitidine"],
+    "precautions": [
+      "avoid spicy and acidic foods",
+      "limit alcohol intake",
+      "eat smaller meals",
+      "manage stress",
+      "avoid long-term NSAID use"
+    ]
+  },
+  {
+    "disease": "Peptic Ulcer",
+    "symptoms": [
+      "burning stomach pain",
+      "bloating",
+      "heartburn",
+      "nausea",
+      "dark or bloody stools in severe cases"
+    ],
+    "treatment": "Acid-reducing medications and antibiotics if caused by infection.",
+    "medicines": ["Omeprazole", "Clarithromycin", "Amoxicillin"],
+    "precautions": [
+      "avoid NSAIDs",
+      "limit alcohol",
+      "avoid smoking",
+      "eat healthy diet",
+      "reduce stress"
+    ]
+  },
+  {
+    "disease": "GERD (Acid Reflux)",
+    "symptoms": [
+      "heartburn",
+      "acid regurgitation",
+      "chest discomfort",
+      "difficulty swallowing",
+      "chronic cough"
+    ],
+    "treatment": "Lifestyle changes and acid-suppressing medications.",
+    "medicines": ["Omeprazole", "Pantoprazole", "Antacids"],
+    "precautions": [
+      "avoid fatty and spicy foods",
+      "do not lie down after meals",
+      "maintain healthy weight",
+      "avoid smoking",
+      "eat smaller meals"
+    ]
+  },
+  {
+    "disease": "Irritable Bowel Syndrome (IBS)",
+    "symptoms": [
+      "abdominal pain",
+      "bloating",
+      "diarrhea or constipation",
+      "gas",
+      "mucus in stool"
+    ],
+    "treatment": "Dietary changes, stress management, and medications.",
+    "medicines": ["Dicycloverine", "Loperamide", "Fiber supplements"],
+    "precautions": [
+      "avoid trigger foods",
+      "manage stress",
+      "eat balanced diet",
+      "stay hydrated",
+      "regular exercise"
+    ]
+  },
+  {
+    "disease": "Crohn’s Disease",
+    "symptoms": [
+      "chronic diarrhea",
+      "abdominal pain",
+      "weight loss",
+      "fatigue",
+      "blood in stool"
+    ],
+    "treatment": "Anti-inflammatory drugs and immune system suppressors.",
+    "medicines": ["Mesalamine", "Azathioprine", "Infliximab"],
+    "precautions": [
+      "avoid trigger foods",
+      "quit smoking",
+      "regular monitoring",
+      "balanced diet",
+      "stress management"
+    ]
+  },
+  {
+    "disease": "Ulcerative Colitis",
+    "symptoms": [
+      "bloody diarrhea",
+      "abdominal cramps",
+      "urgency to pass stool",
+      "fatigue",
+      "weight loss"
+    ],
+    "treatment": "Anti-inflammatory drugs and immune suppressants.",
+    "medicines": ["Sulfasalazine", "Mesalamine", "Corticosteroids"],
+    "precautions": [
+      "avoid trigger foods",
+      "regular medical checkups",
+      "manage stress",
+      "balanced diet",
+      "stay hydrated"
+    ]
+  },
+  {
+    "disease": "Hepatitis",
+    "symptoms": [
+      "fatigue",
+      "jaundice",
+      "dark urine",
+      "abdominal pain",
+      "nausea and vomiting"
+    ],
+    "treatment": "Depends on type; supportive care or antiviral therapy.",
+    "medicines": ["Antivirals", "Interferon"],
+    "precautions": [
+      "vaccination (for A and B)",
+      "avoid contaminated food and water",
+      "safe medical practices",
+      "avoid alcohol",
+      "maintain hygiene"
+    ]
+  },
+  {
+    "disease": "Cirrhosis",
+    "symptoms": [
+      "fatigue",
+      "jaundice",
+      "swelling in abdomen and legs",
+      "easy bruising",
+      "confusion in advanced stages"
+    ],
+    "treatment": "Manage complications and treat underlying causes.",
+    "medicines": ["Diuretics", "Beta blockers", "Lactulose"],
+    "precautions": [
+      "avoid alcohol",
+      "healthy diet",
+      "vaccination",
+      "regular monitoring",
+      "manage liver conditions early"
+    ]
+  },
+  {
+    "disease": "Gallstones",
+    "symptoms": [
+      "sudden abdominal pain (right upper side)",
+      "nausea and vomiting",
+      "indigestion",
+      "pain after fatty meals"
+    ],
+    "treatment": "Pain management or surgical removal of gallbladder.",
+    "medicines": ["Ursodeoxycholic acid", "Pain relievers"],
+    "precautions": [
+      "maintain healthy weight",
+      "avoid fatty foods",
+      "eat regular meals",
+      "exercise regularly",
+      "balanced diet"
+    ]
+  },
+  {
+    "disease": "Pancreatitis",
+    "symptoms": [
+      "severe abdominal pain radiating to back",
+      "nausea and vomiting",
+      "fever",
+      "rapid pulse",
+      "abdominal tenderness"
+    ],
+    "treatment": "Hospital care with fluids, pain management, and treating underlying cause.",
+    "medicines": ["IV fluids", "Pain relievers", "Antibiotics (if needed)"],
+    "precautions": [
+      "avoid alcohol",
+      "maintain healthy diet",
+      "control triglyceride levels",
+      "avoid smoking",
+      "regular medical checkups"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "symptoms": [
+      "fatigue and weakness",
+      "pale or yellowish skin",
+      "shortness of breath",
+      "dizziness",
+      "cold hands and feet"
+    ],
+    "treatment": "Treatment depends on cause, including supplements and dietary changes.",
+    "medicines": ["Iron supplements", "Vitamin B12", "Folic acid"],
+    "precautions": [
+      "eat iron-rich foods",
+      "maintain balanced diet",
+      "regular health checkups",
+      "treat underlying conditions",
+      "avoid excessive blood loss"
+    ]
+  },
+  {
+    "disease": "Leukemia",
+    "symptoms": [
+      "fatigue",
+      "frequent infections",
+      "easy bruising or bleeding",
+      "bone or joint pain",
+      "fever"
+    ],
+    "treatment": "Chemotherapy, radiation therapy, or bone marrow transplant.",
+    "medicines": ["Imatinib", "Cyclophosphamide", "Methotrexate"],
+    "precautions": [
+      "avoid infections",
+      "maintain hygiene",
+      "regular medical monitoring",
+      "healthy diet",
+      "follow treatment plan strictly"
+    ]
+  },
+  {
+    "disease": "Hemophilia",
+    "symptoms": [
+      "excessive bleeding",
+      "easy bruising",
+      "joint pain and swelling",
+      "prolonged bleeding after injury",
+      "nosebleeds"
+    ],
+    "treatment": "Replacement of missing clotting factors.",
+    "medicines": ["Factor VIII concentrate", "Factor IX concentrate"],
+    "precautions": [
+      "avoid injuries",
+      "use protective gear",
+      "regular treatment",
+      "avoid blood-thinning drugs",
+      "inform doctors before procedures"
+    ]
+  },
+  {
+    "disease": "Sickle Cell Disease",
+    "symptoms": [
+      "episodes of severe pain",
+      "fatigue",
+      "swelling in hands and feet",
+      "frequent infections",
+      "delayed growth"
+    ],
+    "treatment": "Pain management, hydration, and blood transfusions.",
+    "medicines": ["Hydroxyurea", "Pain relievers", "Folic acid"],
+    "precautions": [
+      "stay hydrated",
+      "avoid extreme temperatures",
+      "regular checkups",
+      "prevent infections",
+      "balanced diet"
+    ]
+  },
+  {
+    "disease": "Thalassemia",
+    "symptoms": [
+      "fatigue",
+      "pale or yellow skin",
+      "weakness",
+      "bone deformities",
+      "slow growth"
+    ],
+    "treatment": "Blood transfusions and iron chelation therapy.",
+    "medicines": ["Deferoxamine", "Folic acid"],
+    "precautions": [
+      "regular blood transfusions",
+      "genetic counseling",
+      "avoid excess iron intake",
+      "balanced diet",
+      "regular monitoring"
+    ]
+  },
+  {
+    "disease": "Lymphoma",
+    "symptoms": [
+      "swollen lymph nodes",
+      "fever",
+      "night sweats",
+      "weight loss",
+      "fatigue"
+    ],
+    "treatment": "Chemotherapy, radiation therapy, or immunotherapy.",
+    "medicines": ["Rituximab", "Cyclophosphamide", "Doxorubicin"],
+    "precautions": [
+      "avoid infections",
+      "maintain hygiene",
+      "regular medical follow-up",
+      "healthy diet",
+      "monitor symptoms"
+    ]
+  },
+  {
+    "disease": "Multiple Myeloma",
+    "symptoms": [
+      "bone pain",
+      "fatigue",
+      "frequent infections",
+      "kidney problems",
+      "anemia"
+    ],
+    "treatment": "Chemotherapy, targeted therapy, and stem cell transplant.",
+    "medicines": ["Bortezomib", "Lenalidomide", "Dexamethasone"],
+    "precautions": [
+      "avoid infections",
+      "stay hydrated",
+      "regular monitoring",
+      "balanced diet",
+      "follow treatment plan"
+    ]
+  },
+  {
+    "disease": "Autoimmune Disease",
+    "symptoms": [
+      "fatigue",
+      "joint pain",
+      "inflammation",
+      "fever",
+      "skin rashes"
+    ],
+    "treatment": "Immunosuppressive therapy and symptom management.",
+    "medicines": ["Corticosteroids", "Methotrexate", "Immunosuppressants"],
+    "precautions": [
+      "avoid stress",
+      "healthy diet",
+      "regular exercise",
+      "monitor symptoms",
+      "regular medical care"
+    ]
+  },
+  {
+    "disease": "Lupus",
+    "symptoms": [
+      "butterfly-shaped rash on face",
+      "joint pain",
+      "fatigue",
+      "fever",
+      "kidney problems"
+    ],
+    "treatment": "Immunosuppressive drugs and anti-inflammatory medications.",
+    "medicines": ["Hydroxychloroquine", "Prednisone", "Azathioprine"],
+    "precautions": [
+      "avoid sun exposure",
+      "manage stress",
+      "regular checkups",
+      "balanced diet",
+      "take medications regularly"
+    ]
+  },
+  {
+    "disease": "HIV/AIDS",
+    "symptoms": [
+      "fever",
+      "weight loss",
+      "night sweats",
+      "chronic infections",
+      "fatigue"
+    ],
+    "treatment": "Antiretroviral therapy (ART).",
+    "medicines": ["Tenofovir", "Lamivudine", "Efavirenz"],
+    "precautions": [
+      "safe sex practices",
+      "avoid needle sharing",
+      "regular testing",
+      "use sterile medical equipment",
+      "adhere to ART therapy"
+    ]
+ },
+  {
+    "disease": "Arthritis",
+    "symptoms": [
+      "joint pain",
+      "stiffness",
+      "swelling",
+      "reduced range of motion",
+      "redness around joints"
+    ],
+    "treatment": "Pain management, physical therapy, and medications to reduce inflammation.",
+    "medicines": ["Ibuprofen", "Naproxen", "Corticosteroids"],
+    "precautions": [
+      "regular exercise",
+      "maintain healthy weight",
+      "avoid joint overuse",
+      "balanced diet",
+      "regular medical checkups"
+    ]
+  },
+  {
+    "disease": "Osteoarthritis",
+    "symptoms": [
+      "joint pain worsening with activity",
+      "stiffness after inactivity",
+      "reduced flexibility",
+      "bone spurs",
+      "joint tenderness"
+    ],
+    "treatment": "Lifestyle changes, physical therapy, and pain-relieving medications.",
+    "medicines": ["Paracetamol", "Ibuprofen", "Topical NSAIDs"],
+    "precautions": [
+      "maintain healthy weight",
+      "exercise regularly",
+      "avoid repetitive joint stress",
+      "use supportive devices if needed",
+      "balanced diet"
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptoms": [
+      "joint swelling",
+      "morning stiffness",
+      "symmetrical joint pain",
+      "fatigue",
+      "fever"
+    ],
+    "treatment": "Disease-modifying antirheumatic drugs (DMARDs) and anti-inflammatory medications.",
+    "medicines": ["Methotrexate", "Sulfasalazine", "Prednisone"],
+    "precautions": [
+      "early treatment",
+      "regular exercise",
+      "balanced diet",
+      "avoid smoking",
+      "regular monitoring"
+    ]
+  },
+  {
+    "disease": "Osteoporosis",
+    "symptoms": [
+      "weak and brittle bones",
+      "frequent fractures",
+      "back pain",
+      "loss of height",
+      "stooped posture"
+    ],
+    "treatment": "Medications to strengthen bones and calcium/vitamin D supplementation.",
+    "medicines": ["Calcium supplements", "Vitamin D", "Bisphosphonates"],
+    "precautions": [
+      "adequate calcium intake",
+      "regular weight-bearing exercise",
+      "avoid smoking",
+      "limit alcohol",
+      "fall prevention measures"
+    ]
+  },
+  {
+    "disease": "Gout",
+    "symptoms": [
+      "sudden severe joint pain (often big toe)",
+      "swelling",
+      "redness",
+      "warmth in affected joint",
+      "limited joint movement"
+    ],
+    "treatment": "Medications to reduce uric acid and manage pain.",
+    "medicines": ["Allopurinol", "Colchicine", "NSAIDs"],
+    "precautions": [
+      "avoid high-purine foods",
+      "stay hydrated",
+      "limit alcohol",
+      "maintain healthy weight",
+      "regular checkups"
+    ]
+  },
+  {
+    "disease": "Back Pain",
+    "symptoms": [
+      "muscle ache",
+      "stiffness",
+      "limited mobility",
+      "sharp or shooting pain",
+      "pain radiating to legs"
+    ],
+    "treatment": "Physical therapy, pain relief medications, and lifestyle changes.",
+    "medicines": ["Ibuprofen", "Muscle relaxants", "Paracetamol"],
+    "precautions": [
+      "maintain proper posture",
+      "regular exercise",
+      "avoid heavy lifting",
+      "use ergonomic furniture",
+      "stretching exercises"
+    ]
+  },
+  {
+    "disease": "Fibromyalgia",
+    "symptoms": [
+      "widespread body pain",
+      "fatigue",
+      "sleep disturbances",
+      "memory problems (fibro fog)",
+      "tender points"
+    ],
+    "treatment": "Pain management, lifestyle changes, and stress reduction.",
+    "medicines": ["Pregabalin", "Duloxetine", "Amitriptyline"],
+    "precautions": [
+      "regular exercise",
+      "manage stress",
+      "maintain sleep routine",
+      "balanced diet",
+      "avoid overexertion"
+    ]
+  },
+  {
+    "disease": "Muscle Dystrophy",
+    "symptoms": [
+      "progressive muscle weakness",
+      "difficulty walking",
+      "frequent falls",
+      "muscle wasting",
+      "difficulty swallowing in later stages"
+    ],
+    "treatment": "Supportive care, physical therapy, and medications.",
+    "medicines": ["Corticosteroids", "Physical therapy support"],
+    "precautions": [
+      "regular physiotherapy",
+      "balanced nutrition",
+      "monitor respiratory health",
+      "genetic counseling",
+      "regular checkups"
+    ]
+  },
+  {
+    "disease": "Tendinitis",
+    "symptoms": [
+      "pain around joints",
+      "swelling",
+      "tenderness",
+      "reduced movement",
+      "pain during activity"
+    ],
+    "treatment": "Rest, ice therapy, and anti-inflammatory medications.",
+    "medicines": ["Ibuprofen", "Naproxen"],
+    "precautions": [
+      "avoid repetitive movements",
+      "proper warm-up before exercise",
+      "rest affected area",
+      "use proper techniques",
+      "stretching exercises"
+    ]
+  },
+  {
+    "disease": "Bursitis",
+    "symptoms": [
+      "joint pain",
+      "swelling",
+      "stiffness",
+      "pain with movement",
+      "redness in affected area"
+    ],
+    "treatment": "Rest, anti-inflammatory medications, and physical therapy.",
+    "medicines": ["Ibuprofen", "Corticosteroids"],
+    "precautions": [
+      "avoid prolonged pressure on joints",
+      "use cushioning supports",
+      "proper posture",
+      "regular stretching",
+      "rest when needed"
+    ]
+  },
+  {
+    "disease": "Down Syndrome",
+    "symptoms": [
+      "intellectual disability",
+      "delayed development",
+      "distinct facial features",
+      "low muscle tone",
+      "short stature"
+    ],
+    "treatment": "Supportive care including therapy and medical management.",
+    "medicines": ["Supportive supplements"],
+    "precautions": [
+      "early intervention programs",
+      "regular health checkups",
+      "balanced nutrition",
+      "special education support",
+      "genetic counseling"
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "symptoms": [
+      "persistent cough with thick mucus",
+      "frequent lung infections",
+      "difficulty breathing",
+      "poor growth",
+      "digestive problems"
+    ],
+    "treatment": "Airway clearance, medications, and nutritional support.",
+    "medicines": ["Ivacaftor", "Dornase alfa", "Antibiotics"],
+    "precautions": [
+      "regular physiotherapy",
+      "avoid infections",
+      "maintain nutrition",
+      "regular monitoring",
+      "vaccination"
+    ]
+  },
+  {
+    "disease": "Hemophilia",
+    "symptoms": [
+      "excessive bleeding",
+      "easy bruising",
+      "joint pain",
+      "prolonged bleeding after injury"
+    ],
+    "treatment": "Clotting factor replacement therapy.",
+    "medicines": ["Factor VIII", "Factor IX"],
+    "precautions": [
+      "avoid injuries",
+      "regular treatment",
+      "avoid blood thinners",
+      "use protective gear",
+      "medical alert identification"
+    ]
+  },
+  {
+    "disease": "Sickle Cell Anemia",
+    "symptoms": [
+      "pain crises",
+      "fatigue",
+      "swelling in hands and feet",
+      "frequent infections",
+      "delayed growth"
+    ],
+    "treatment": "Pain management and blood transfusions.",
+    "medicines": ["Hydroxyurea", "Folic acid"],
+    "precautions": [
+      "stay hydrated",
+      "avoid extreme temperatures",
+      "regular checkups",
+      "prevent infections",
+      "healthy lifestyle"
+    ]
+  },
+  {
+    "disease": "Huntington’s Disease",
+    "symptoms": [
+      "uncontrolled movements",
+      "cognitive decline",
+      "mood changes",
+      "speech difficulties"
+    ],
+    "treatment": "Symptom management and supportive care.",
+    "medicines": ["Tetrabenazine", "Antipsychotics"],
+    "precautions": [
+      "genetic counseling",
+      "regular monitoring",
+      "mental health support",
+      "balanced nutrition",
+      "family support"
+    ]
+  },
+  {
+    "disease": "Tay-Sachs Disease",
+    "symptoms": [
+      "loss of motor skills",
+      "muscle weakness",
+      "vision and hearing loss",
+      "seizures"
+    ],
+    "treatment": "Supportive care only.",
+    "medicines": ["Anticonvulsants"],
+    "precautions": [
+      "genetic counseling",
+      "early diagnosis",
+      "supportive therapy",
+      "family planning awareness"
+    ]
+  },
+  {
+    "disease": "Turner Syndrome",
+    "symptoms": [
+      "short stature",
+      "delayed puberty",
+      "infertility",
+      "heart defects"
+    ],
+    "treatment": "Hormone therapy and medical management.",
+    "medicines": ["Growth hormone", "Estrogen therapy"],
+    "precautions": [
+      "regular health monitoring",
+      "early diagnosis",
+      "hormone therapy adherence",
+      "balanced diet"
+    ]
+  },
+  {
+    "disease": "Klinefelter Syndrome",
+    "symptoms": [
+      "low testosterone",
+      "reduced muscle mass",
+      "infertility",
+      "learning difficulties"
+    ],
+    "treatment": "Testosterone replacement therapy.",
+    "medicines": ["Testosterone therapy"],
+    "precautions": [
+      "early diagnosis",
+      "hormone therapy",
+      "educational support",
+      "regular monitoring"
+    ]
+  },
+  {
+    "disease": "Marfan Syndrome",
+    "symptoms": [
+      "tall and thin body",
+      "long limbs",
+      "heart abnormalities",
+      "eye problems"
+    ],
+    "treatment": "Medication and monitoring of heart condition.",
+    "medicines": ["Beta blockers", "Losartan"],
+    "precautions": [
+      "avoid intense physical activity",
+      "regular heart checkups",
+      "genetic counseling",
+      "eye examinations"
+    ]
+  },
+  {
+    "disease": "Fragile X Syndrome",
+    "symptoms": [
+      "intellectual disability",
+      "delayed speech",
+      "behavioral issues",
+      "anxiety"
+    ],
+    "treatment": "Supportive therapies and behavioral management.",
+    "medicines": ["Antidepressants", "Antipsychotics"],
+    "precautions": [
+      "early intervention",
+      "special education",
+      "behavioral therapy",
+      "family support"
+    ]
+  },
+  {
+    "disease": "Diabetes Type 1",
+    "symptoms": [
+      "frequent urination",
+      "excessive thirst",
+      "weight loss",
+      "fatigue",
+      "blurred vision"
+    ],
+    "treatment": "Insulin therapy and blood sugar monitoring.",
+    "medicines": ["Insulin"],
+    "precautions": [
+      "regular blood sugar monitoring",
+      "balanced diet",
+      "regular exercise",
+      "avoid sugary foods",
+      "medical follow-up"
+    ]
+  },
+  {
+    "disease": "Diabetes Type 2",
+    "symptoms": [
+      "frequent urination",
+      "increased thirst",
+      "fatigue",
+      "blurred vision",
+      "slow healing wounds"
+    ],
+    "treatment": "Lifestyle changes and medications.",
+    "medicines": ["Metformin", "Insulin", "Sulfonylureas"],
+    "precautions": [
+      "maintain healthy weight",
+      "regular exercise",
+      "balanced diet",
+      "monitor blood sugar",
+      "avoid sugary foods"
+    ]
+  },
+  {
+    "disease": "Hypothyroidism",
+    "symptoms": [
+      "fatigue",
+      "weight gain",
+      "cold intolerance",
+      "dry skin",
+      "depression"
+    ],
+    "treatment": "Thyroid hormone replacement.",
+    "medicines": ["Levothyroxine"],
+    "precautions": [
+      "regular thyroid tests",
+      "take medication regularly",
+      "balanced diet",
+      "avoid iodine imbalance"
+    ]
+  },
+  {
+    "disease": "Hyperthyroidism",
+    "symptoms": [
+      "weight loss",
+      "rapid heartbeat",
+      "anxiety",
+      "sweating",
+      "tremors"
+    ],
+    "treatment": "Medication, radioactive iodine, or surgery.",
+    "medicines": ["Methimazole", "Propylthiouracil"],
+    "precautions": [
+      "regular monitoring",
+      "avoid excess iodine",
+      "manage stress",
+      "follow treatment plan"
+    ]
+  },
+  {
+    "disease": "Goiter",
+    "symptoms": [
+      "neck swelling",
+      "difficulty swallowing",
+      "cough",
+      "breathing issues"
+    ],
+    "treatment": "Depends on cause; medication or surgery.",
+    "medicines": ["Levothyroxine", "Iodine supplements"],
+    "precautions": [
+      "adequate iodine intake",
+      "regular checkups",
+      "balanced diet",
+      "monitor thyroid levels"
+    ]
+  },
+  {
+    "disease": "Addison’s Disease",
+    "symptoms": [
+      "fatigue",
+      "weight loss",
+      "low blood pressure",
+      "skin darkening",
+      "salt cravings"
+    ],
+    "treatment": "Hormone replacement therapy.",
+    "medicines": ["Hydrocortisone", "Fludrocortisone"],
+    "precautions": [
+      "take medications regularly",
+      "manage stress",
+      "regular monitoring",
+      "carry medical alert ID"
+    ]
+  },
+  {
+    "disease": "Cushing’s Syndrome",
+    "symptoms": [
+      "weight gain in face and abdomen",
+      "moon face",
+      "high blood pressure",
+      "muscle weakness",
+      "stretch marks"
+    ],
+    "treatment": "Reduce cortisol levels via medication or surgery.",
+    "medicines": ["Ketoconazole", "Metyrapone"],
+    "precautions": [
+      "regular monitoring",
+      "manage stress",
+      "balanced diet",
+      "follow medical advice"
+    ]
+  },
+  {
+    "disease": "Polycystic Ovary Syndrome (PCOS)",
+    "symptoms": [
+      "irregular periods",
+      "acne",
+      "weight gain",
+      "excess hair growth",
+      "infertility"
+    ],
+    "treatment": "Lifestyle changes and hormonal therapy.",
+    "medicines": ["Metformin", "Oral contraceptives"],
+    "precautions": [
+      "maintain healthy weight",
+      "exercise regularly",
+      "balanced diet",
+      "regular monitoring",
+      "manage stress"
+    ]
+  },
+  {
+    "disease": "Growth Hormone Deficiency",
+    "symptoms": [
+      "short stature",
+      "delayed puberty",
+      "increased body fat",
+      "low energy"
+    ],
+    "treatment": "Growth hormone therapy.",
+    "medicines": ["Somatropin"],
+    "precautions": [
+      "early diagnosis",
+      "regular monitoring",
+      "balanced diet",
+      "follow treatment plan"
+    ]
+  },
+  {
+    "disease": "Acromegaly",
+    "symptoms": [
+      "enlarged hands and feet",
+      "facial changes",
+      "joint pain",
+      "thickened skin",
+      "headaches"
+    ],
+    "treatment": "Surgery, radiation, or medications.",
+    "medicines": ["Octreotide", "Lanreotide"],
+    "precautions": [
+      "early diagnosis",
+      "regular monitoring",
+      "follow treatment plan",
+      "healthy lifestyle"
+    ]
+ },
+  {
+    "disease": "Acne",
+    "symptoms": [
+      "pimples (whiteheads and blackheads)",
+      "oily skin",
+      "redness and inflammation",
+      "painful cysts",
+      "scarring in severe cases"
+    ],
+    "treatment": "Topical treatments and oral medications to reduce oil and bacteria.",
+    "medicines": ["Benzoyl peroxide", "Clindamycin", "Isotretinoin"],
+    "precautions": [
+      "keep skin clean",
+      "avoid oily products",
+      "do not squeeze pimples",
+      "maintain healthy diet",
+      "regular skincare routine"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "symptoms": [
+      "dry itchy skin",
+      "red patches",
+      "inflammation",
+      "cracked or scaly skin"
+    ],
+    "treatment": "Moisturizers and anti-inflammatory medications.",
+    "medicines": ["Hydrocortisone", "Tacrolimus"],
+    "precautions": [
+      "avoid irritants",
+      "keep skin moisturized",
+      "use mild soaps",
+      "avoid scratching"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptoms": [
+      "thick red patches with silvery scales",
+      "itching",
+      "dry cracked skin",
+      "bleeding in severe cases"
+    ],
+    "treatment": "Topical treatments, phototherapy, and systemic medications.",
+    "medicines": ["Calcipotriene", "Methotrexate"],
+    "precautions": [
+      "avoid stress",
+      "keep skin moisturized",
+      "avoid triggers",
+      "healthy lifestyle"
+    ]
+  },
+  {
+    "disease": "Dermatitis",
+    "symptoms": [
+      "skin redness",
+      "itching",
+      "swelling",
+      "blisters"
+    ],
+    "treatment": "Anti-inflammatory creams and avoiding irritants.",
+    "medicines": ["Hydrocortisone", "Antihistamines"],
+    "precautions": [
+      "avoid allergens",
+      "maintain hygiene",
+      "use gentle skincare products"
+    ]
+  },
+  {
+    "disease": "Rosacea",
+    "symptoms": [
+      "facial redness",
+      "visible blood vessels",
+      "acne-like bumps",
+      "burning sensation"
+    ],
+    "treatment": "Topical and oral medications.",
+    "medicines": ["Metronidazole", "Doxycycline"],
+    "precautions": [
+      "avoid triggers (spicy food, heat)",
+      "use sunscreen",
+      "gentle skincare"
+    ]
+  },
+  {
+    "disease": "Vitiligo",
+    "symptoms": [
+      "white patches on skin",
+      "loss of pigmentation",
+      "premature whitening of hair"
+    ],
+    "treatment": "Topical therapy and light therapy.",
+    "medicines": ["Corticosteroids", "Tacrolimus"],
+    "precautions": [
+      "protect skin from sun",
+      "avoid stress",
+      "regular dermatology checkups"
+    ]
+  },
+  {
+    "disease": "Skin Cancer",
+    "symptoms": [
+      "new or changing mole",
+      "irregular borders",
+      "color changes",
+      "non-healing sores"
+    ],
+    "treatment": "Surgery, radiation, or chemotherapy.",
+    "medicines": ["Immunotherapy drugs", "Chemotherapy agents"],
+    "precautions": [
+      "use sunscreen",
+      "avoid excessive sun exposure",
+      "regular skin checks"
+    ]
+  },
+  {
+    "disease": "Melanoma",
+    "symptoms": [
+      "dark irregular mole",
+      "rapid growth of lesion",
+      "itching or bleeding"
+    ],
+    "treatment": "Surgical removal and targeted therapy.",
+    "medicines": ["Pembrolizumab", "Nivolumab"],
+    "precautions": [
+      "avoid UV exposure",
+      "use sunscreen",
+      "regular skin screening"
+    ]
+  },
+  {
+    "disease": "Warts",
+    "symptoms": [
+      "small rough skin growths",
+      "thickened skin",
+      "pain in foot warts"
+    ],
+    "treatment": "Topical treatments or removal procedures.",
+    "medicines": ["Salicylic acid"],
+    "precautions": [
+      "avoid direct contact",
+      "maintain hygiene",
+      "do not pick warts"
+    ]
+  },
+  {
+    "disease": "Fungal Infection",
+    "symptoms": [
+      "itching",
+      "red rash",
+      "scaly skin",
+      "burning sensation"
+    ],
+    "treatment": "Antifungal medications.",
+    "medicines": ["Clotrimazole", "Fluconazole"],
+    "precautions": [
+      "keep skin dry",
+      "maintain hygiene",
+      "avoid sharing personal items"
+    ]
+  },
+
+  {
+    "disease": "Depression",
+    "symptoms": [
+      "persistent sadness",
+      "loss of interest",
+      "fatigue",
+      "sleep disturbances",
+      "hopelessness"
+    ],
+    "treatment": "Therapy and medications.",
+    "medicines": ["Fluoxetine", "Sertraline"],
+    "precautions": [
+      "seek counseling",
+      "maintain routine",
+      "exercise regularly",
+      "social support"
+    ]
+  },
+  {
+    "disease": "Anxiety Disorder",
+    "symptoms": [
+      "excessive worry",
+      "restlessness",
+      "rapid heartbeat",
+      "sweating",
+      "difficulty concentrating"
+    ],
+    "treatment": "Therapy and anti-anxiety medications.",
+    "medicines": ["Alprazolam", "Escitalopram"],
+    "precautions": [
+      "practice relaxation techniques",
+      "avoid caffeine",
+      "regular exercise",
+      "therapy sessions"
+    ]
+  },
+  {
+    "disease": "Bipolar Disorder",
+    "symptoms": [
+      "mood swings",
+      "mania (high energy)",
+      "depression episodes",
+      "impulsiveness"
+    ],
+    "treatment": "Mood stabilizers and therapy.",
+    "medicines": ["Lithium", "Valproate"],
+    "precautions": [
+      "regular medication",
+      "avoid stress",
+      "maintain routine",
+      "therapy support"
+    ]
+  },
+  {
+    "disease": "Schizophrenia",
+    "symptoms": [
+      "hallucinations",
+      "delusions",
+      "disorganized thinking",
+      "social withdrawal"
+    ],
+    "treatment": "Antipsychotic medications and therapy.",
+    "medicines": ["Risperidone", "Olanzapine"],
+    "precautions": [
+      "regular medication",
+      "family support",
+      "avoid stress",
+      "therapy"
+    ]
+  },
+  {
+    "disease": "OCD",
+    "symptoms": [
+      "obsessive thoughts",
+      "compulsive behaviors",
+      "anxiety",
+      "need for order"
+    ],
+    "treatment": "Cognitive behavioral therapy and medications.",
+    "medicines": ["Fluoxetine", "Clomipramine"],
+    "precautions": [
+      "therapy sessions",
+      "stress management",
+      "regular medication"
+    ]
+  },
+  {
+    "disease": "PTSD",
+    "symptoms": [
+      "flashbacks",
+      "nightmares",
+      "anxiety",
+      "avoidance behavior"
+    ],
+    "treatment": "Therapy and medications.",
+    "medicines": ["Sertraline", "Paroxetine"],
+    "precautions": [
+      "counseling",
+      "stress management",
+      "support groups"
+    ]
+  },
+  {
+    "disease": "ADHD",
+    "symptoms": [
+      "inattention",
+      "hyperactivity",
+      "impulsiveness",
+      "difficulty focusing"
+    ],
+    "treatment": "Behavioral therapy and medications.",
+    "medicines": ["Methylphenidate", "Atomoxetine"],
+    "precautions": [
+      "structured routine",
+      "behavioral therapy",
+      "avoid distractions"
+    ]
+  },
+  {
+    "disease": "Eating Disorders",
+    "symptoms": [
+      "abnormal eating habits",
+      "weight changes",
+      "fear of weight gain",
+      "nutritional deficiencies"
+    ],
+    "treatment": "Therapy and nutritional support.",
+    "medicines": ["Fluoxetine"],
+    "precautions": [
+      "counseling",
+      "balanced diet",
+      "monitor mental health"
+    ]
+  },
+  {
+    "disease": "Insomnia",
+    "symptoms": [
+      "difficulty sleeping",
+      "frequent waking",
+      "daytime fatigue",
+      "poor concentration"
+    ],
+    "treatment": "Sleep hygiene and medications.",
+    "medicines": ["Melatonin", "Zolpidem"],
+    "precautions": [
+      "maintain sleep schedule",
+      "avoid screens before bed",
+      "limit caffeine"
+    ]
+  },
+  {
+    "disease": "Panic Disorder",
+    "symptoms": [
+      "panic attacks",
+      "chest pain",
+      "shortness of breath",
+      "fear of losing control"
+    ],
+    "treatment": "Therapy and medications.",
+    "medicines": ["Alprazolam", "SSRIs"],
+    "precautions": [
+      "stress management",
+      "therapy",
+      "avoid triggers"
+    ]
+  },
+
+  {
+    "disease": "Infertility",
+    "symptoms": [
+      "inability to conceive",
+      "irregular menstrual cycles",
+      "hormonal imbalance"
+    ],
+    "treatment": "Medical therapy and assisted reproductive techniques.",
+    "medicines": ["Clomiphene", "Hormonal therapy"],
+    "precautions": [
+      "maintain healthy lifestyle",
+      "regular medical checkups",
+      "avoid stress"
+    ]
+  },
+  {
+    "disease": "Erectile Dysfunction",
+    "symptoms": [
+      "difficulty achieving erection",
+      "reduced sexual desire",
+      "performance issues"
+    ],
+    "treatment": "Medications and lifestyle changes.",
+    "medicines": ["Sildenafil", "Tadalafil"],
+    "precautions": [
+      "avoid smoking",
+      "exercise regularly",
+      "manage stress"
+    ]
+  },
+  {
+    "disease": "Endometriosis",
+    "symptoms": [
+      "pelvic pain",
+      "painful periods",
+      "heavy bleeding",
+      "infertility"
+    ],
+    "treatment": "Hormonal therapy and surgery.",
+    "medicines": ["Hormonal therapy", "Pain relievers"],
+    "precautions": [
+      "regular checkups",
+      "manage pain early",
+      "healthy lifestyle"
+    ]
+  },
+  {
+    "disease": "PCOS",
+    "symptoms": [
+      "irregular periods",
+      "weight gain",
+      "acne",
+      "excess hair growth"
+    ],
+    "treatment": "Lifestyle changes and hormonal therapy.",
+    "medicines": ["Metformin", "Oral contraceptives"],
+    "precautions": [
+      "exercise regularly",
+      "maintain weight",
+      "balanced diet"
+    ]
+  },
+  {
+    "disease": "Ovarian Cancer",
+    "symptoms": [
+      "abdominal bloating",
+      "pelvic pain",
+      "loss of appetite",
+      "frequent urination"
+    ],
+    "treatment": "Surgery and chemotherapy.",
+    "medicines": ["Carboplatin", "Paclitaxel"],
+    "precautions": [
+      "regular screening",
+      "early diagnosis",
+      "healthy lifestyle"
+    ]
+  },
+  {
+    "disease": "Cervical Cancer",
+    "symptoms": [
+      "abnormal vaginal bleeding",
+      "pelvic pain",
+      "pain during intercourse",
+      "unusual discharge"
+    ],
+    "treatment": "Surgery, radiation, or chemotherapy.",
+    "medicines": ["Cisplatin"],
+    "precautions": [
+      "HPV vaccination",
+      "regular Pap smear",
+      "safe sexual practices"
+    ]
+  },
+  {
+    "disease": "Prostate Cancer",
+    "symptoms": [
+      "difficulty urinating",
+      "weak urine flow",
+      "blood in urine",
+      "pelvic discomfort"
+    ],
+    "treatment": "Surgery, radiation, or hormone therapy.",
+    "medicines": ["Hormonal therapy", "Chemotherapy drugs"],
+    "precautions": [
+      "regular screening",
+      "healthy diet",
+      "exercise"
+    ]
+  },
+  {
+    "disease": "STDs",
+    "symptoms": [
+      "genital sores",
+      "discharge",
+      "painful urination",
+      "itching"
+    ],
+    "treatment": "Depends on infection type (antibiotics/antivirals).",
+    "medicines": ["Antibiotics", "Antivirals"],
+    "precautions": [
+      "safe sex practices",
+      "regular testing",
+      "avoid multiple partners"
+    ]
+  },
+  {
+    "disease": "Gonorrhea",
+    "symptoms": [
+      "painful urination",
+      "discharge",
+      "pelvic pain",
+      "testicular pain"
+    ],
+    "treatment": "Antibiotic therapy.",
+    "medicines": ["Ceftriaxone", "Azithromycin"],
+    "precautions": [
+      "safe sex practices",
+      "regular screening",
+      "treat partners"
+    ]
+  },
+  {
+    "disease": "Syphilis",
+    "symptoms": [
+      "painless sore (early stage)",
+      "rash",
+      "fever",
+      "organ damage (late stage)"
+    ],
+    "treatment": "Antibiotic therapy.",
+    "medicines": ["Penicillin"],
+    "precautions": [
+      "safe sex practices",
+      "regular testing",
+      "early treatment"
+    ]
+},
+  {
+    "disease": "Chickenpox",
+    "symptoms": [
+      "itchy red rash progressing to fluid-filled blisters",
+      "fever",
+      "fatigue and weakness",
+      "loss of appetite",
+      "headache"
+    ],
+    "treatment": "Symptomatic treatment with antiviral drugs in severe cases and supportive care.",
+    "medicines": ["Acyclovir", "Paracetamol", "Antihistamines"],
+    "precautions": [
+      "vaccination",
+      "isolate infected person",
+      "avoid scratching blisters",
+      "maintain hygiene",
+      "keep nails short to prevent infection"
+    ]
+  },
+  {
+    "disease": "Measles",
+    "symptoms": [
+      "high fever",
+      "runny nose",
+      "red watery eyes",
+      "persistent cough",
+      "rash starting from face and spreading downward"
+    ],
+    "treatment": "Supportive care with hydration and vitamin supplementation.",
+    "medicines": ["Vitamin A", "Paracetamol"],
+    "precautions": [
+      "MMR vaccination",
+      "isolation of infected individuals",
+      "maintain hygiene",
+      "avoid crowded places"
+    ]
+  },
+  {
+    "disease": "Mumps",
+    "symptoms": [
+      "swelling of salivary glands",
+      "fever",
+      "headache",
+      "muscle aches",
+      "pain while chewing or swallowing"
+    ],
+    "treatment": "Supportive care with rest and fluids.",
+    "medicines": ["Paracetamol", "Ibuprofen"],
+    "precautions": [
+      "MMR vaccination",
+      "avoid close contact",
+      "maintain hygiene",
+      "isolate infected person"
+    ]
+  },
+  {
+    "disease": "Whooping Cough",
+    "symptoms": [
+      "severe coughing fits",
+      "whooping sound during inhalation",
+      "vomiting after coughing",
+      "runny nose in early stage",
+      "fatigue"
+    ],
+    "treatment": "Antibiotic therapy and supportive care.",
+    "medicines": ["Azithromycin", "Erythromycin"],
+    "precautions": [
+      "DTaP vaccination",
+      "avoid contact with infected individuals",
+      "cover mouth while coughing",
+      "maintain hygiene"
+    ]
+  },
+  {
+    "disease": "Hand, Foot, and Mouth Disease",
+    "symptoms": [
+      "fever",
+      "painful mouth sores",
+      "rash on hands and feet",
+      "loss of appetite",
+      "sore throat"
+    ],
+    "treatment": "Supportive care with hydration and pain relief.",
+    "medicines": ["Paracetamol", "Ibuprofen"],
+    "precautions": [
+      "maintain hygiene",
+      "wash hands frequently",
+      "avoid close contact",
+      "disinfect surfaces"
+    ]
+  },
+  {
+    "disease": "Scarlet Fever",
+    "symptoms": [
+      "red rash with sandpaper texture",
+      "high fever",
+      "sore throat",
+      "strawberry tongue",
+      "flushed face"
+    ],
+    "treatment": "Antibiotic therapy.",
+    "medicines": ["Penicillin", "Amoxicillin"],
+    "precautions": [
+      "complete antibiotic course",
+      "avoid contact with infected individuals",
+      "maintain hygiene",
+      "early treatment"
+    ]
+  },
+  {
+    "disease": "Rickets",
+    "symptoms": [
+      "weak or soft bones",
+      "bone pain",
+      "delayed growth",
+      "skeletal deformities (bowed legs)",
+      "muscle weakness"
+    ],
+    "treatment": "Vitamin D and calcium supplementation.",
+    "medicines": ["Vitamin D", "Calcium supplements"],
+    "precautions": [
+      "adequate sunlight exposure",
+      "balanced diet",
+      "early diagnosis",
+      "regular pediatric checkups"
+    ]
+  },
+  {
+    "disease": "Obesity",
+    "symptoms": [
+      "excess body fat",
+      "fatigue",
+      "breathlessness",
+      "joint pain",
+      "reduced physical activity"
+    ],
+    "treatment": "Lifestyle modification, diet control, exercise, and medications if needed.",
+    "medicines": ["Orlistat"],
+    "precautions": [
+      "balanced diet",
+      "regular exercise",
+      "avoid junk food",
+      "monitor weight",
+      "healthy lifestyle"
+    ]
+  },
+  {
+    "disease": "Stroke",
+    "symptoms": [
+      "sudden weakness on one side of body",
+      "difficulty speaking",
+      "vision problems",
+      "severe headache",
+      "loss of balance"
+    ],
+    "treatment": "Emergency medical treatment including clot removal or medications.",
+    "medicines": ["Aspirin", "Alteplase"],
+    "precautions": [
+      "control blood pressure",
+      "exercise regularly",
+      "healthy diet",
+      "avoid smoking",
+      "manage diabetes"
+    ]
+  },
+  {
+    "disease": "Fatty Liver Disease",
+    "symptoms": [
+      "fatigue",
+      "abdominal discomfort",
+      "weight gain",
+      "liver enlargement",
+      "often no early symptoms"
+    ],
+    "treatment": "Lifestyle changes and management of underlying conditions.",
+    "medicines": ["Vitamin E", "Pioglitazone"],
+    "precautions": [
+      "avoid alcohol",
+      "maintain healthy weight",
+      "exercise regularly",
+      "balanced diet"
+    ]
+  },
+  {
+    "disease": "Metabolic Syndrome",
+    "symptoms": [
+      "high blood pressure",
+      "high blood sugar",
+      "excess abdominal fat",
+      "high cholesterol",
+      "fatigue"
+    ],
+    "treatment": "Lifestyle modification and medications.",
+    "medicines": ["Metformin", "Statins"],
+    "precautions": [
+      "healthy diet",
+      "regular exercise",
+      "weight management",
+      "monitor health parameters"
+    ]
+  },
+  {
+    "disease": "Sleep Disorders",
+    "symptoms": [
+      "difficulty falling or staying asleep",
+      "daytime fatigue",
+      "irritability",
+      "poor concentration",
+      "snoring or breathing interruptions"
+    ],
+    "treatment": "Sleep hygiene practices and medical treatment if needed.",
+    "medicines": ["Melatonin", "Zolpidem"],
+    "precautions": [
+      "maintain sleep schedule",
+      "avoid screens before bed",
+      "limit caffeine",
+      "relaxation techniques"
+    ]
+  },
+  {
+    "disease": "Alcoholism",
+    "symptoms": [
+      "strong craving for alcohol",
+      "loss of control over drinking",
+      "withdrawal symptoms",
+      "neglect of responsibilities",
+      "behavioral changes"
+    ],
+    "treatment": "Behavioral therapy and medical detoxification.",
+    "medicines": ["Disulfiram", "Naltrexone"],
+    "precautions": [
+      "avoid alcohol",
+      "counseling and support groups",
+      "healthy lifestyle",
+      "family support"
+    ]
+  },
+  {
+    "disease": "Smoking-related Diseases",
+    "symptoms": [
+      "chronic cough",
+      "shortness of breath",
+      "lung damage",
+      "fatigue",
+      "increased risk of cancer"
+    ],
+    "treatment": "Smoking cessation and management of related conditions.",
+    "medicines": ["Nicotine replacement therapy", "Bupropion"],
+    "precautions": [
+      "quit smoking",
+      "avoid secondhand smoke",
+      "healthy lifestyle",
+      "regular health checkups"
+    ]
+  },
+  {
+    "disease": "Lung Cancer",
+    "symptoms": [
+      "persistent cough that worsens over time",
+      "coughing up blood (hemoptysis)",
+      "chest pain while breathing or coughing",
+      "shortness of breath",
+      "unexplained weight loss and fatigue"
+    ],
+    "treatment": "Treatment depends on stage and includes surgery, chemotherapy, radiation therapy, and targeted therapy.",
+    "medicines": [
+      "Cisplatin (chemotherapy)",
+      "Erlotinib (targeted therapy)",
+      "Pembrolizumab (immunotherapy)"
+    ],
+    "precautions": [
+      "avoid smoking and secondhand smoke",
+      "limit exposure to pollutants and chemicals",
+      "regular screening for high-risk individuals",
+      "maintain healthy lifestyle"
+    ]
+  },
+  {
+    "disease": "Breast Cancer",
+    "symptoms": [
+      "painless lump in breast or underarm",
+      "change in breast size or shape",
+      "nipple discharge (possibly bloody)",
+      "skin dimpling or redness",
+      "inverted nipple"
+    ],
+    "treatment": "Combination of surgery, chemotherapy, radiation therapy, and hormone therapy.",
+    "medicines": [
+      "Tamoxifen (hormone therapy)",
+      "Trastuzumab (targeted therapy)"
+    ],
+    "precautions": [
+      "monthly self-breast examination",
+      "regular mammography screening",
+      "maintain healthy weight",
+      "limit alcohol intake"
+    ]
+  },
+  {
+    "disease": "Kidney Stones",
+    "symptoms": [
+      "severe sharp pain in back or side (renal colic)",
+      "blood in urine (hematuria)",
+      "nausea and vomiting",
+      "frequent urination",
+      "pain during urination"
+    ],
+    "treatment": "Small stones pass naturally; larger stones may require medication or procedures like lithotripsy or surgery.",
+    "medicines": [
+      "Tamsulosin (helps stone passage)",
+      "Pain relievers (NSAIDs)"
+    ],
+    "precautions": [
+      "drink plenty of water daily",
+      "limit salt and oxalate-rich foods",
+      "maintain balanced diet",
+      "avoid dehydration"
+    ]
+  },
+  {
+    "disease": "Urinary Tract Infection (UTI)",
+    "symptoms": [
+      "burning sensation during urination",
+      "frequent urge to urinate",
+      "cloudy or foul-smelling urine",
+      "pelvic pain",
+      "low-grade fever"
+    ],
+    "treatment": "Antibiotic therapy based on infection severity.",
+    "medicines": [
+      "Nitrofurantoin",
+      "Trimethoprim-sulfamethoxazole"
+    ],
+    "precautions": [
+      "drink plenty of water",
+      "maintain personal hygiene",
+      "urinate after intercourse",
+      "avoid holding urine for long periods"
+    ]
+  },
+  {
+    "disease": "Glaucoma",
+    "symptoms": [
+      "gradual loss of peripheral vision",
+      "eye pain or pressure",
+      "blurred vision",
+      "halos around lights",
+      "headache"
+    ],
+    "treatment": "Lower intraocular pressure using medications or surgery.",
+    "medicines": [
+      "Timolol (beta-blocker eye drops)",
+      "Latanoprost (prostaglandin analog)"
+    ],
+    "precautions": [
+      "regular eye examinations",
+      "early detection",
+      "follow medication schedule",
+      "avoid excessive eye strain"
+    ]
+  },
+  {
+    "disease": "Diabetic Retinopathy",
+    "symptoms": [
+      "blurred or fluctuating vision",
+      "dark spots or floaters",
+      "impaired color vision",
+      "vision loss in advanced stages"
+    ],
+    "treatment": "Laser therapy, injections, or surgery depending on severity.",
+    "medicines": [
+      "Anti-VEGF injections (e.g., Ranibizumab)"
+    ],
+    "precautions": [
+      "strict blood sugar control",
+      "regular eye checkups",
+      "manage blood pressure",
+      "healthy diet"
+    ]
+  },
+  {
+    "disease": "Vertigo",
+    "symptoms": [
+      "spinning sensation",
+      "dizziness",
+      "loss of balance",
+      "nausea and vomiting",
+      "difficulty walking"
+    ],
+    "treatment": "Vestibular rehabilitation and medications.",
+    "medicines": [
+      "Betahistine",
+      "Antihistamines"
+    ],
+    "precautions": [
+      "avoid sudden head movements",
+      "stay hydrated",
+      "perform balance exercises",
+      "avoid alcohol"
+    ]
+  },
+  {
+    "disease": "Chronic Kidney Disease",
+    "symptoms": [
+      "fatigue and weakness",
+      "swelling in legs and feet",
+      "reduced urine output",
+      "nausea",
+      "high blood pressure"
+    ],
+    "treatment": "Manage underlying causes and slow progression.",
+    "medicines": [
+      "ACE inhibitors (e.g., Enalapril)",
+      "Diuretics"
+    ],
+    "precautions": [
+      "control diabetes and blood pressure",
+      "limit salt intake",
+      "avoid nephrotoxic drugs",
+      "regular kidney function tests"
+    ]
+  },
+  {
+    "disease": "Ear Infection",
+    "symptoms": [
+      "ear pain",
+      "fluid discharge",
+      "hearing difficulty",
+      "fever",
+      "irritability (in children)"
+    ],
+    "treatment": "Antibiotics and pain management.",
+    "medicines": [
+      "Amoxicillin",
+      "Pain relievers"
+    ],
+    "precautions": [
+      "keep ears dry",
+      "avoid inserting objects",
+      "treat colds early",
+      "maintain hygiene"
+    ]
+  },
+  {
+    "disease": "Brain Tumor",
+    "symptoms": [
+      "persistent headaches",
+      "seizures",
+      "vision or speech problems",
+      "memory issues",
+      "personality changes"
+    ],
+    "treatment": "Surgery, radiation therapy, and chemotherapy.",
+    "medicines": [
+      "Temozolomide",
+      "Corticosteroids"
+    ],
+    "precautions": [
+      "early diagnosis",
+      "regular monitoring",
+      "follow treatment plan",
+      "neurological checkups"
+    ]
+  }
+]
