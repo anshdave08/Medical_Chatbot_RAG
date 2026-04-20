@@ -6,6 +6,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain_openai import ChatOpenAI
+from utils.safety import classify_query, violence_response, self_harm_response, emotional_response
 import os
 
 from utils.symptom_matcher import match_disease, get_disease_info
@@ -75,43 +76,36 @@ for message in st.session_state.messages:
 query = st.chat_input("Ask your medical question...")
 
 if query:
-    # 1. Show user message
-    st.session_state.messages.append({"role": "user", "content": query})
 
-    with st.chat_message("user"):
-        st.markdown(query)
+    # ---------------- 1️⃣ CLASSIFY QUERY ----------------
+    category = classify_query(query)
 
-    # 2. Process immediately
-    disease_info = get_disease_info(query)
+    if category == "violence":
+        answer = violence_response()
 
-    if disease_info:
-        answer = f"""
-### {disease_info['disease']}
+    elif category == "self_harm":
+        answer = self_harm_response()
 
-Symptoms:
-{', '.join(disease_info['symptoms'])}
+    elif category == "emotional":
+        answer = emotional_response()
 
-Treatment:
-{disease_info['treatment']}
-"""
     else:
-        response = qa_chain.invoke({
-            "question": query
+        answer = None
+
+    # ---------------- 🚨 STOP IF UNSAFE ----------------
+    if answer:
+        with st.chat_message("assistant"):
+            st.markdown(answer)
+
+        st.session_state.messages.append({
+            "role": "assistant",
+            "content": answer
         })
-        answer = response["answer"]
 
-    # 3. Show response immediately
-    with st.chat_message("assistant"):
-        st.markdown(answer)
+        st.stop()
 
-    # 4. Save response
-    st.session_state.messages.append({
-        "role": "assistant",
-        "content": answer
-    })
 
-    st.stop()
-
+    # ---------------- 2️⃣ SMALL TALK ----------------
     if is_small_talk(query):
         response_text = "You're welcome 😊. Let me know if you have any medical questions."
 
@@ -124,51 +118,90 @@ Treatment:
         })
 
         st.stop()
-    # ---------------- LLM Call ----------------
-    if predicted:
-        disease_list = [d["disease"] for d in predicted]
 
-        response = qa_chain.invoke({
-            "question": f"""
-    You are an experienced medical assistant.
 
-    User Input:
-    {query}
+    # ---------------- 3️⃣ SHOW USER MESSAGE ----------------
+    st.session_state.messages.append({"role": "user", "content": query})
 
-    Possible Conditions:
-    {disease_list}
+    with st.chat_message("user"):
+        st.markdown(query)
 
-    Provide structured response:
 
-    1. Possible Conditions
-    2. Reasoning (why symptoms match)
-    3. Treatment
-    4. Precautions
-    5. When to see a doctor
+    # ---------------- 4️⃣ JSON DISEASE MATCH ----------------
+    disease_info = get_disease_info(query)
 
-    Do NOT repeat previous answers.
-    Be confident and precise.
+    if disease_info:
+        answer = f"""
+### {disease_info['disease']}
 
-    ⚠ This is not a medical diagnosis. Visit Doctor for validation.
-    """,
-            "chat_history": memory.chat_memory.messages
-        })
+Symptoms:
+{', '.join(disease_info['symptoms'])}
+
+Treatment:
+{disease_info['treatment']}
+
+⚠ This is not a medical diagnosis.
+"""
+
     else:
-        response = qa_chain.invoke({
-                    "question": query,
-                    "chat_history": st.session_state.memory.chat_memory.messages
-        })
+        # ---------------- 5️⃣ LLM + SYMPTOM MATCH ----------------
+        predicted = match_disease(query)
 
-    answer = response["answer"]
+        if predicted:
+            disease_list = [d["disease"] for d in predicted]
 
-    # ---------------- Show Prediction ----------------
-    if predicted:
-        with st.chat_message("assistant"):
-            st.markdown("### 🧠 Possible Diseases:")
-            for d in predicted:
-                st.markdown(f"- {d['disease']} ({d['confidence']}%)")
-            st.markdown("---")
-            st.markdown(answer)
+            response = qa_chain.invoke({
+                "question": f"""
+You are an experienced medical assistant.
 
-    # Save bot response
-    st.session_state.messages.append({"role": "assistant", "content": answer})
+User Input:
+{query}
+
+Possible Conditions:
+{disease_list}
+
+Provide structured response:
+
+1. Possible Conditions
+2. Reasoning
+3. Treatment
+4. Precautions
+5. When to see a doctor
+
+Do NOT hallucinate.
+Be confident and precise.
+
+⚠ This is not a medical diagnosis.
+""",
+                "chat_history": memory.chat_memory.messages
+            })
+
+        else:
+            response = qa_chain.invoke({
+                "question": f"""
+You are a medical assistant.
+
+If the answer is NOT found in medical context, respond strictly:
+"I am not confident about this. Please consult a medical professional."
+
+User query:
+{query}
+""",
+                "chat_history": memory.chat_memory.messages
+            })
+
+        answer = response["answer"]
+
+        # ---------------- 6️⃣ HALLUCINATION GUARD ----------------
+        if len(answer.strip()) < 20 or "not mentioned" in answer.lower():
+            answer = "⚠ I am not confident about this. Please consult a doctor."
+
+
+    # ---------------- 7️⃣ SHOW RESPONSE ----------------
+    with st.chat_message("assistant"):
+        st.markdown(answer)
+
+    st.session_state.messages.append({
+        "role": "assistant",
+        "content": answer
+    })
